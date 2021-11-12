@@ -8,8 +8,8 @@ import { useForm, useField } from 'vee-validate';
 import * as yup from 'yup';
 
 const schema = yup.object({
-  username: yup.string().required().email(),
-  password: yup.string().required().min(8),
+  username: yup.string().required().email().label("Email"),
+  password: yup.string().required().min(8).label("Password"),
 });
 
 useForm({
