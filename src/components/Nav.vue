@@ -17,7 +17,7 @@ const loggingOut = () => {
 <div class = "container mx-auto flex items-center justify-between">
 
 <h1 class="tracking-tighter text-3xl font-bold">
-Vue<span class="bg bg-indigo-600 font-normal">RealAuth</span>
+Vue<span class="bg bg-indigo-600 font-normal">RealAuth with Google</span>
 </h1>
     
     <nav>
